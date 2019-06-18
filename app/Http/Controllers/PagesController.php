@@ -22,6 +22,6 @@ class PagesController extends Controller
       'title' => 'Laravel Services Page',
       'services' => ['Web Design', 'Programming', 'SEO']
     );
-    return view('pages.services')->with($data);
+      return view('pages.services')->with($data);
+    }
   }
-}
